@@ -1,0 +1,65 @@
+#about {
+  background: var(--bg-gray, #f9faff);
+  width: 1440px;
+  height: 3813px;
+}
+.about-first-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.position {
+  color: var(--brand-yellow, #fdc435);
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  align-self: stretch;
+  background-color: #ffffff;
+}
+.message {
+  color: var(--Gray-1, #333);
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 76.8px */
+  width: 486px;
+}
+.description {
+  color: var(--Gray-3, #828282);
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.projects-btn {
+  border-radius: 8px;
+  background-color: #fdc435;
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+}
+.linkedin-btn {
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-color: #fdc435;
+  border: 2px solid var(--bg-line, #25282b);
+}
+.fill {
+  fill: var(--brand-yellow, #fdc435);
+  width: 1436px;
+  height: 111.891px;
+  flex-shrink: 0;
+}

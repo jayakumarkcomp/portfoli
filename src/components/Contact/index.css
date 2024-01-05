@@ -1,0 +1,23 @@
+#contact {
+    text-align: center;
+    padding: 20px;
+  }
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
